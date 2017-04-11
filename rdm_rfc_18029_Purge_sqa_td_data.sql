@@ -14,7 +14,7 @@ BEGIN
     (
        job_name        => 'RDM.PURGE_SQA_TD_DATA'
       ,start_date      => TO_TIMESTAMP_TZ('2017/04/20 17:00:00.000000 -04:00','yyyy/mm/dd hh24:mi:ss.ff tzr')
-      ,repeat_interval => 'FREQ=WEEKLY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=01'
+      ,repeat_interval => 'FREQ=WEEKLY;BYDAY=MON,TUE,WED,THU,FRI,SAT,SUN;BYHOUR=02'
       ,end_date        => NULL
       ,job_class       => 'DEFAULT_JOB_CLASS'
       ,job_type        => 'STORED_PROCEDURE'
